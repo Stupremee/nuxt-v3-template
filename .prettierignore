@@ -1,0 +1,14 @@
+# Nuxt / Vue / Js
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+pnpm-lock.yaml
+
+# Devenv
+.devenv*
+devenv.local.nix
