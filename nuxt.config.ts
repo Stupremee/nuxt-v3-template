@@ -6,5 +6,8 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   tailwindcss: {
     viewer: true,
+    config: {
+      plugins: [require("@tailwindcss/typography")],
+    },
   },
 });
